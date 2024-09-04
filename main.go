@@ -24,7 +24,7 @@ func main() {
 	fmt.Println("Writting data to file...")
 	err1 := export.WriteToFile(products)
 	if err1 != nil {
-		fmt.Println("Error exporting to Google Sheet:", err1)
+		fmt.Println("Error exporting to file:", err1)
 	}
 
 	fmt.Println("Exporting data to Spreadsheet...")
